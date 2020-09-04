@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,18 +14,21 @@ using System.Windows.Shapes;
 namespace BakeryOnlypans
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Empleado.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Empleado : Page
     {
-        public MainWindow()
+        public Empleado()
         {
             InitializeComponent();
+            cmbItms.Items.Add("Aliñados");
+            cmbItms.Items.Add("NoAliñados");
+            cmbItms.Items.Add("Especial");
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void Lstdata_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            frameMain.NavigationService.Navigate(new Home());
+
         }
     }
 }

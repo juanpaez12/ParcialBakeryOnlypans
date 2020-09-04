@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" />
+  </ItemGroup>
+
 </Project>
