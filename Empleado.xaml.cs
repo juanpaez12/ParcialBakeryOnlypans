@@ -21,7 +21,6 @@ namespace BakeryOnlypans
                 public Empleado()
                 {
                     InitializeComponent();
-
                 }
                 private void btnGuardar_Click(object sender, RoutedEventArgs e)
                 {
