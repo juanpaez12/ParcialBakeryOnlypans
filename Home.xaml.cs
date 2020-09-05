@@ -32,13 +32,8 @@ namespace BakeryOnlypans
             }
             else if (txtUsername.Text == "Administrador" && txtPassword.Password == "admin123")
             {
-                MessageBox.Show("Bienvenido Administrador");
-
                 MainWindow w = (MainWindow)Window.GetWindow(this);
                 w.frameMain.NavigationService.Navigate(new Administrador());
-
-                
-
             }
             else
             {

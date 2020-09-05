@@ -22,18 +22,5 @@ namespace BakeryOnlypans
         {
             InitializeComponent();
         }
-
-        private void btnSalir1_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.frameMain.NavigationService.Navigate(new Home());
-        }
-
-        private void btnobservar_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.frameMain.NavigationService.Navigate(new Empleado());
-            
-        }
     }
 }
