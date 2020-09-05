@@ -10,7 +10,7 @@
 
     <Grid>
         <Image Stretch="UniformToFill" Source="/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" StretchDirection="UpOnly"/>
-        <Image Margin="0,2,0,0" Stretch="UniformToFill" Source="pack://siteoforigin:,,,/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" RenderTransformOrigin="0.5,0.5" >
+        <Image Margin="0,0,0,-20" Stretch="UniformToFill" Source="pack://siteoforigin:,,,/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" RenderTransformOrigin="0.5,0.5" >
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -21,8 +21,8 @@
             </Image.RenderTransform>
         </Image>
         <Label Content="Inicio de Sesión" HorizontalAlignment="Center" Height="30" Margin="0,143,0,0" VerticalAlignment="Top" Width="152" FontFamily="Arial" FontSize="20"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" Height="15" Margin="0,206,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
-        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Width="104" Height="15"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" Height="18" Margin="0,206,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Width="104" Height="18"/>
         <Label Content="Usuario:" HorizontalAlignment="Left" Margin="252,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.694,0.282"/>
         <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="252,232,0,0" VerticalAlignment="Top" Width="79"/>
         <Button Name="btnLogin" Content="Iniciar" HorizontalAlignment="Center" Height="24" Margin="0,283,0,0" VerticalAlignment="Top" Width="92" Click="btnLogin_Click_1"/>
