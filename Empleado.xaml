@@ -9,7 +9,7 @@
       Title="Empleado">
 
     <Grid>
-        <Image Stretch="Fill" Source="/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg"/>
+        <Image Stretch="Fill" Source="/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" Margin="0,0,0,-20"/>
         <Label Content="Panel Empleado" HorizontalAlignment="Center" Margin="0,114,0,0" VerticalAlignment="Top" Width="152" FontSize="20"/>
         <ListBox Name="Lstdata" HorizontalAlignment="Left" Height="137" Margin="476,155,0,0" VerticalAlignment="Top" Width="151"/>
         <TextBox Name="txtTipo" HorizontalAlignment="Left" Height="16" Margin="285,241,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>

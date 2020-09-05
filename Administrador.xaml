@@ -9,7 +9,7 @@
       Title="Administrador">
 
     <Grid>
-        <Image Stretch="Fill" Source="/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg"/>
+        <Image Stretch="Fill" Source="/marco-pan-cruasanes-espacio-copia_23-2148365468.jpg" Margin="0,0,0,-20"/>
         <Label Content="Panel Administrador" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top" Width="196" FontSize="20"/>
         <Button Name="btnSalir1" Content="Salir" HorizontalAlignment="Left" Height="21" Margin="134,289,0,0" VerticalAlignment="Top" Width="49" Click="btnSalir1_Click"/>
         <Label Content="PanAliñado" HorizontalAlignment="Left" Height="30" Margin="134,171,0,0" VerticalAlignment="Top" Width="90" FontSize="11"/>

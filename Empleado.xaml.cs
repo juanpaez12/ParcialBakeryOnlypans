@@ -21,9 +21,7 @@ namespace BakeryOnlypans
                 public Empleado()
                 {
                     InitializeComponent();
-                    cmbItms.Items.Add("Aliñados");
-                    cmbItms.Items.Add("NoAliñados");
-                    cmbItms.Items.Add("Especial");
+
                 }
                 private void btnGuardar_Click(object sender, RoutedEventArgs e)
                 {
